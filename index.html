@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Sampah Cendrawasih Sehat</title>
+    <!-- CSS Framework Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="bg-emerald-600 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-wide">Bank Sampah Cendrawasih Sehat</h1>
+            <nav class="space-x-4 hidden md:block">
+                <a href="#profil" class="hover:underline">Profil</a>
+                <a href="#harga" class="hover:underline">Daftar Harga</a>
+                <a href="#dokumentasi" class="hover:underline">Dokumentasi</a>
+                <a href="#kontak" class="hover:underline">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-emerald-50 py-16 px-4 border-b">
+        <div class="max-w-4xl mx-auto text-center space-y-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-emerald-800">Wujudkan Lingkungan Bersih & Bernilai Ekonomi</h2>
+            <p class="text-gray-600 text-lg">Wadah pemilahan dan pengelolaan sampah anorganik warga untuk lingkungan yang lebih sehat dan berdaya.</p>
+            <a href="#harga" class="inline-block bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition">Cek Harga Sampah Hari Ini</a>
+        </div>
+    </section>
+
+    <!-- Section Profil -->
+    <section id="profil" class="max-w-6xl mx-auto px-4 py-12">
+        <h3 class="text-2xl font-bold text-center text-emerald-800 mb-8">Tentang Kami</h3>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <p class="text-gray-700 leading-relaxed mb-4">
+                    <strong>Bank Sampah Cendrawasih Sehat</strong> berfokus pada edukasi pemilahan sampah dari rumah tangga (3R: Reduce, Reuse, Recycle) serta pengolahan sampah anorganik menjadi tabungan bernilai ekonomis bagi warga sekitar.
+                </p>
+                <ul class="space-y-2 text-gray-600">
+                    <li>✔️ <strong>Hari Operasional Penimbangan:</strong> Setiap Hari Rabu (09.00 - 12.00 WITA)</li>
+                    <li>✔️ <strong>Lokasi Penimbangan:</strong> Fasum Lapangan RT. 06</li>
+                    <li>✔️ <strong>Metode Hasil:</strong> Catat Tabungan / Tunai Direct</li>
+                </ul>
+            </div>
+            <div class="bg-emerald-100 rounded-xl p-8 text-center border border-emerald-200">
+                <p class="text-4xl font-extrabold text-emerald-700 mb-2">3R</p>
+                <p class="text-gray-600 font-medium">Reduce • Reuse • Recycle</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Daftar Harga -->
+    <section id="harga" class="bg-white py-12 border-t border-b">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center text-emerald-800 mb-2">Daftar Harga Sampah Anorganik</h3>
+            <p class="text-center text-gray-500 mb-8">Harga dapat berubah sesuai kondisi pasar daur ulang (Update berkala)</p>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse bg-gray-50 rounded-lg overflow-hidden shadow">
+                    <thead>
+                        <tr class="bg-emerald-600 text-white">
+                            <th class="p-4">Kategori Sampah</th>
+                            <th class="p-4">Jenis / Keterangan</th>
+                            <th class="p-4">Estimasi Harga / kg</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr>
+                            <td class="p-4 font-semibold">Plastik</td>
+                            <td class="p-4 text-gray-600">Botol PET Bening (Bersih/Tanpa Tutup)</td>
+                            <td class="p-4 text-emerald-700 font-bold">Rp 3.000 / kg</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Plastik</td>
+                            <td class="p-4 text-gray-600">Gelas Plastik / Bodongan Campur</td>
+                            <td class="p-4 text-emerald-700 font-bold">Rp 2.000 / kg</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Kertas & Karton</td>
+                            <td class="p-4 text-gray-600">Kardus Cokelat / HVS Bekas</td>
+                            <td class="p-4 text-emerald-700 font-bold">Rp 1.800 / kg</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Logam</td>
+                            <td class="p-4 text-gray-600">Besi Tebal / Kaleng Aluminium</td>
+                            <td class="p-4 text-emerald-700 font-bold">Rp 4.000 / kg</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Minyak</td>
+                            <td class="p-4 text-gray-600">Minyak Jelantah (Minyak Goreng Bekas)</td>
+                            <td class="p-4 text-emerald-700 font-bold">Rp 6.000 / Liter</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Dokumentasi Tim -->
+    <section id="dokumentasi" class="max-w-6xl mx-auto px-4 py-12">
+        <h3 class="text-2xl font-bold text-center text-emerald-800 mb-8">Dokumentasi & Tim Pengurus</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg overflow-hidden shadow border border-gray-100">
+                <img src="images/foto1.jpg" alt="Kegiatan Penimbangan" class="w-full h-48 object-cover bg-gray-200">
+                <div class="p-4">
+                    <h4 class="font-bold text-lg text-emerald-800 mb-1">Kegiatan Penimbangan</h4>
+                    <p class="text-gray-600 text-sm">Penimbangan dan pencatatan tabungan sampah rutin tiap akhir pekan.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow border border-gray-100">
+                <img src="images/foto2.jpg" alt="Tim Pengurus" class="w-full h-48 object-cover bg-gray-200">
+                <div class="p-4">
+                    <h4 class="font-bold text-lg text-emerald-800 mb-1">Tim Pengurus 3R</h4>
+                    <p class="text-gray-600 text-sm">Pengurus dan kader kebersihan lingkungan yang siap melayani warga.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg overflow-hidden shadow border border-gray-100">
+                <img src="images/foto3.jpg" alt="Pemilahan Sampah" class="w-full h-48 object-cover bg-gray-200">
+                <div class="p-4">
+                    <h4 class="font-bold text-lg text-emerald-800 mb-1">Pemilahan & Packing</h4>
+                    <p class="text-gray-600 text-sm">Pengepakan sampah anorganik sebelum didistribusikan ke lapak daur ulang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Kontak -->
+    <footer id="kontak" class="bg-emerald-900 text-white py-8 border-t">
+        <div class="max-w-6xl mx-auto px-4 text-center space-y-4">
+            <h4 class="text-xl font-bold">Bank Sampah Cendrawasih Sehat</h4>
+            <p class="text-emerald-200 text-sm">Hubungi Pengurus / WhatsApp: 0812-XXXX-XXXX</p>
+            <p class="text-gray-400 text-xs">© 2026 Bank Sampah Cendrawasih Sehat. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
